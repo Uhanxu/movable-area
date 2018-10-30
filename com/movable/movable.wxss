@@ -1,0 +1,30 @@
+.movable-box {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.movable-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  z-index: 11;
+}
+
+.share-images {
+  width: 60px;
+  height: 60px;
+}
+
+.share-btn {
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}

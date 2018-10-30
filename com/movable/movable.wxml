@@ -1,0 +1,7 @@
+<!--com/movable/movable.wxml-->
+<movable-area class='movable-box'>
+  <slot/>
+  <movable-view class='movable-btn' x='{{x}}' y='{{y}}' direction='all' bindtouchstart='onShareMoveStart' bindtouchmove='onShareMoving' bindtouchend='onShareMoveEnd'>
+    <image class="share-images" hidden="{{!status}}" src="{{content}}"></image>
+  </movable-view>
+</movable-area>

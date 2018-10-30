@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "com-movable": "../../../com/movable/movable"
+  }
+}

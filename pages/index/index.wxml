@@ -1,0 +1,5 @@
+<com-movable content="{{movable.image}}" bind:myevent="onMyShareEvent">
+  <view class="container">
+   
+  </view>
+</com-movable>
