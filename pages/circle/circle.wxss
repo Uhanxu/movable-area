@@ -1,0 +1,29 @@
+.score-rank{
+  color: #5686FD;
+  background-color: red;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  border: 20rpx solid bisque;
+   animation: myfirst 5s;
+    -webkit-animation: myfirst 5s; /* Safari 与 Chrome */
+}
+
+.score{
+  height: 100%;
+  line-height: 200rpx;
+}
+
+@keyframes myfirst
+{
+    from {translate:0}
+    to {translate: 360}
+}
+ 
+@-webkit-keyframes myfirst /* Safari 与 Chrome */
+{
+    from {translate:0}
+    to {translate: 360}
+}

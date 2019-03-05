@@ -1,31 +1,31 @@
 Page({
   data: {
     movable: {
-      image: '../../resource/image/home-active.png'
+      image: ''
     }
   },
-  onLoad: function(options) {
-
+  onLoad: function (options) {
+    console.log('optionsIndex', options)
   },
-  onShow: function() {},
+  onShow: function () { },
   /*
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function() {
+  onPullDownRefresh: function () {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function() {
-   
+  onReachBottom: function () {
+
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function(res) {
-   
+  onShareAppMessage: function (res) {
+
   }
 })

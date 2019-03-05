@@ -33,9 +33,14 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 15,
+			"current": 0,
 			"list": [
-			
+				{
+					"id": -1,
+					"name": "circle动画效果",
+					"pathName": "pages/circle/circle",
+					"scene": null
+				}
 			]
 		}
 	}
